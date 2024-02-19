@@ -1,4 +1,5 @@
-![image](https://github.com/fredjml/projfinal2024/assets/127332573/59f20581-f8ec-490a-8891-0c6e74626fba)
+![image](https://github.com/fredjml/projfinal2024/assets/127332573/502daa20-9356-4af7-8f1a-92ea80bebda2)
+
 
 
 
