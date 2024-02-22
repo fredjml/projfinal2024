@@ -52,5 +52,5 @@ spec:
       volumes:
       - name: data
         persistentVolumeClaim:
-          claimName: wp-pvc-rwx
+          claimName: wp-pv-claim
 
