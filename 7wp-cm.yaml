@@ -4,6 +4,6 @@ metadata:
   name: wp-cm-vars
   namespace: wordpress
 data:
-  wp_db_host: wordpress-mysql
+  wp_db_host: wordpress
   wp_db_name: wordpress
   wp_db_user: wp_user
