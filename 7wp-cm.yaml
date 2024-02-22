@@ -5,5 +5,5 @@ metadata:
   namespace: wordpress
 data:
   wp_db_host: wp-mysql
-  wp_db_name: wp-db
+  wp_db_name: wordpress
   wp_db_user: wp-user
