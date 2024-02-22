@@ -8,5 +8,5 @@ metadata:
     tier: db
 data:
   hostname: wordpress
-  username: wp_user
+  username: wordpress
   database: wordpress
