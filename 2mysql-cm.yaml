@@ -7,6 +7,6 @@ metadata:
     app: mysql
     tier: db
 data:
-  hostname: wordpress
+  hostname: mysql
   username: wordpress
   database: wordpress
