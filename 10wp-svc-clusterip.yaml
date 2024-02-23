@@ -8,7 +8,10 @@ metadata:
   namespace: wordpress
 spec:
   ports:
-  - port: 3306
+  - name: http
+    port: 80
+    protocol: TCP
+    targetPort: 80
   selector:
     app: wordpress
-  clusterIP: None
+  type: ClusterIP
