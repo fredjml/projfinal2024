@@ -1,21 +1,21 @@
 apiVersion: apps/v1
 kind: StatefulSet
 metadata:
-  name: mysql-dpm-sfs
+  name: wordpress-mysql
   namespace: wordpress
   labels:
-    app: mysql
+    app: wordpress
     tier: db
 spec:
   selector:
     matchLabels:
-      app: mysql
+      app: wordpress
       tier: db
-  serviceName: "mysql-dmp-sfs"
+  serviceName: "wordpress-mysql"
   template:
     metadata:
       labels:
-        app: mysql
+        app: wordpress
         tier: db
     spec:
       containers:
@@ -51,4 +51,4 @@ spec:
       volumes:
       - name: data
         persistentVolumeClaim:
-          claimName: mysql-pvc-rwo 
+          claimName: mysql-pvc-rwo
