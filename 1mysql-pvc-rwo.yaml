@@ -4,7 +4,7 @@ metadata:
   name: mysql-pvc-rwo
   namespace: wordpress
   labels:
-    app: mysql
+    app: wordpress
 spec:
   accessModes:
     - ReadWriteOnce

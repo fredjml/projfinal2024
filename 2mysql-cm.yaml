@@ -4,7 +4,7 @@ metadata:
   name: mysql-cm-vars
   namespace: wordpress
   labels:
-    app: mysql
+    app: wordpress
     tier: db
 data:
   hostname: wordpress-mysql
