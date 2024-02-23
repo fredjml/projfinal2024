@@ -3,7 +3,7 @@ kind: Deployment
 metadata:
   labels:
     app: wordpress
-  name: wp-dpm
+  name: wordpress
   namespace: wordpress
 spec:
   replicas: 1
