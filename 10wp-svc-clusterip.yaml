@@ -4,15 +4,11 @@ metadata:
   labels:
     app: wordpress
     tier: frontend
-  name: wp-svc-clusterip
+  name: wordpress
   namespace: wordpress
 spec:
   ports:
-  - name: http
-    port: 80
-    protocol: TCP
-    targetPort: 80
+  - port: 3306
   selector:
     app: wordpress
-    tier: frontend
-  type: ClusterIP
+  clusterIP: None
